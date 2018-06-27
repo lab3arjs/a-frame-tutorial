@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>      
+      <a-torus position="0 1.25 -5" radius="5" color="darkgrey" shadow></a-torus>
+      <a-torus position="0 1.25 -5" radius="4" color="black" shadow></a-torus>
+      <a-torus position="0 1.25 -5" radius="3" color="grey" shadow></a-torus>
+      <a-torus position="0 1.25 -5" radius="2" color="white" shadow></a-torus>
+      
+      <a-cylinder position="-1 1 -3" rotation="0 0 0" radius="0.1" height="2" color="grey" shadow></a-cylinder>
+      <a-cylinder position="1 1 -3" rotation="0 0 0" radius="0.1" height="2" color="grey" shadow></a-cylinder>
+
+      <a-box position="0 1.7 -3" rotation="0 0 0" depth="0.1" height="0.5" width="2" color="black"></a-box>
+      <a-text value="welcome to greylandia!" position="-0.8 1.7 -2.9"  width="3.6" color="white"></a-text>
+
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+      <a-sky color="skyblue"></a-sky>
+    </a-scene>
+  </body>
+</html>
